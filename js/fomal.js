@@ -2928,11 +2928,11 @@ function setFont(n) {
   localStorage.setItem("font", n)
   if (n == "default") {
     document.documentElement.style.setProperty('--global-font', '-apple-system');
-    document.body.style.fontFamily = "-apple-system, ZhuZiAWan, HYTMR, TTQHB, MiSans, YSHST, LXGW, Consolas_1, BlinkMacSystemFont, 'Segoe UI' , 'Helvetica Neue' , Lato, Roboto, 'PingFang SC' , 'Microsoft JhengHei' , 'Microsoft YaHei' , sans-serif";
+    document.body.style.fontFamily = "-apple-system, Consolas_1, BlinkMacSystemFont, 'Segoe UI' , 'Helvetica Neue' , Lato, Roboto, 'PingFang SC' , 'Microsoft JhengHei' , 'Microsoft YaHei' , sans-serif";
   }
   else {
     document.documentElement.style.setProperty('--global-font', n);
-    document.body.style.fontFamily = "var(--global-font), -apple-system, BlinkMacSystemFont, 'Segoe UI' , 'Helvetica Neue' , Lato, Roboto, 'PingFang SC' , 'Microsoft JhengHei' , 'Microsoft YaHei' , sans-serif";
+    document.body.style.fontFamily = "var(--global-font),-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-seriff";
   }
   try { setFontBorder(); } catch (err) { };
 }
