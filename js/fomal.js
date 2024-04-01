@@ -3390,8 +3390,14 @@ function createWinbox() {
 <a class="swf" id="swf_MiSans" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans'!important;color:black" onclick="setFont('MiSans')">MiSans</a>
 <a class="swf" id="swf_MiSans1" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans1'!important;color:black" onclick="setFont('MiSans1')">MiSans1</a>
 <a class="swf" id="swf_Ipix" href="javascript:;" rel="noopener external nofollow" style="font-family:'Ipix'!important;color:black" onclick="setFont('Ipix')">中文像素字体</a>
-<a class="swf" id="swf_SR" href="javascript:;" rel="noopener external nofollow" style="font-family:'SR'!important;color:black" onclick="setFont('SR')">Slidefu-Regular</a>
+<a class="swf" id="swf_SR" href="javascript:;" rel="noopener external nofollow" style="font-family:'SR'!important;color:black" onclick="setFont('SR')">佛系体</a>
 <a class="swf" id="swf_SCP" href="javascript:;" rel="noopener external nofollow" style="font-family:'SCP'!important;color:black" onclick="setFont('SCP')">SourceCodePro</a>
+<a class="swf" id="swf_BTXB" href="javascript:;" rel="noopener external nofollow" style="font-family:'BTXB'!important;color:black" onclick="setFont('BTXB')">包图小白体</a>
+<a class="swf" id="swf_DYZG" href="javascript:;" rel="noopener external nofollow" style="font-family:'DYZG'!important;color:black" onclick="setFont('DYZG')">斗鱼追光体2.0</a>
+<a class="swf" id="swf_QLLS" href="javascript:;" rel="noopener external nofollow" style="font-family:'QLLS'!important;color:black" onclick="setFont('QLLS')">青柳隶书</a>
+<a class="swf" id="swf_SX" href="javascript:;" rel="noopener external nofollow" style="font-family:'SX'!important;color:black" onclick="setFont('SX')">手书体</a>
+<a class="swf" id="swf_YZCL" href="javascript:;" rel="noopener external nofollow" style="font-family:'YZCL'!important;color:black" onclick="setFont('YZCL')">有字库龙藏体</a>
+<a class="swf" id="swf_HZPY" href="javascript:;" rel="noopener external nofollow" style="font-family:'HZPY'!important;color:black" onclick="setFont('HZPY')">汉字拼音</a>
 <a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
 </p>
 
