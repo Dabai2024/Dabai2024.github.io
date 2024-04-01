@@ -36,7 +36,30 @@
   /* 定义显示样式 */
   font-display: block;
 }
-
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'ZhuZiAWan1';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/ZhuZiAWan2.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'ZhuZiAWan2';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/ZhuZiAYuanJWD.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
 @font-face {
   /* 为载入的字体取名字(随意) */
   font-family: 'HYTMR';	
@@ -89,9 +112,81 @@
 }
 @font-face {
   /* 为载入的字体取名字(随意) */
+  font-family: 'YSHST1';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/优设鲨鱼菲特健康体.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'YSHST2';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/YSHaoShenTi.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
   font-family: 'MiSans';	
   /* 字体文件地址(相对或者绝对路径都可以) */
   src: url(/fonts/MiSans.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'MiSans1';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/MiSans-Bold.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'Ipix';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/IPix中文像素字体.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'SR';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/Slidefu-Regular.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'SCP';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/SourceCodePro.woff2);
   /* 定义加粗样式(加粗多少) */
   font-weight: normal;
   /* 定义字体样式(斜体/非斜体) */

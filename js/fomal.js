@@ -3379,11 +3379,19 @@ function createWinbox() {
 </div>
 <p id="swfs">
 <a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸标准体2.0</a>
+<a class="swf" id="swf_ZhuZiAWan1" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan1'!important;color:black" onclick="setFont('ZhuZiAWan1')">筑紫A丸标准体2.1</a>
+<a class="swf" id="swf_ZhuZiAWan2" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan2'!important;color:black" onclick="setFont('ZhuZiAWan2')">筑紫A丸标准体2.2</a>
 <a class="swf" id="swf_HYTMR" href="javascript:;" rel="noopener external nofollow" style="font-family:'HYTMR'!important;color:black" onclick="setFont('HYTMR')">汉仪唐美人</a>
 <a class="swf" id="swf_LXGW" href="javascript:;" rel="noopener external nofollow" style="font-family:'LXGW'!important;color:black" onclick="setFont('LXGW')">霞鹜文楷</a>
 <a class="swf" id="swf_TTQHB" href="javascript:;" rel="noopener external nofollow" style="font-family:'TTQHB'!important;color:black" onclick="setFont('TTQHB')">甜甜圈海报</a>
 <a class="swf" id="swf_YSHST" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST'!important;color:black" onclick="setFont('YSHST')">优设好身体</a>
+<a class="swf" id="swf_YSHST1" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST1'!important;color:black" onclick="setFont('YSHST1')">优设好身体1</a>
+<a class="swf" id="swf_YSHST2" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST2'!important;color:black" onclick="setFont('YSHST2')">优设好身体2</a>
 <a class="swf" id="swf_MiSans" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans'!important;color:black" onclick="setFont('MiSans')">MiSans</a>
+<a class="swf" id="swf_MiSans1" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans1'!important;color:black" onclick="setFont('MiSans1')">MiSans1</a>
+<a class="swf" id="swf_Ipix" href="javascript:;" rel="noopener external nofollow" style="font-family:'Ipix'!important;color:black" onclick="setFont('Ipix')">中文像素字体</a>
+<a class="swf" id="swf_SR" href="javascript:;" rel="noopener external nofollow" style="font-family:'SR'!important;color:black" onclick="setFont('SR')">Slidefu-Regular</a>
+<a class="swf" id="swf_SCP" href="javascript:;" rel="noopener external nofollow" style="font-family:'SCP'!important;color:black" onclick="setFont('SCP')">SourceCodePro</a>
 <a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
 </p>
 
