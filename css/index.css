@@ -9972,3 +9972,6 @@ hr:before {
     max-height: 75vh !important;
   }
 }
+#drone .container {
+  overflow: hidden;
+}
