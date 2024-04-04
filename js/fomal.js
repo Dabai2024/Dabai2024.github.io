@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'XRYBZ-O3URT-TEDXF-LUKOA-SGY33-3IFLW',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(105.970555, 36.977054, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -303,7 +303,7 @@ document.addEventListener('pjax:complete', getWeibo);
 document.addEventListener('DOMContentLoaded', getWeibo);
 
 function getWeibo() {
-  fetch('').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
+  fetch('https://weibo.eurkon.com/api').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
     let html = '<style>.weibo-new{background:#ff3852}.weibo-hot{background:#ff9406}.weibo-jyzy{background:#ffc000}.weibo-recommend{background:#00b7ee}.weibo-adrecommend{background:#febd22}.weibo-friend{background:#8fc21e}.weibo-boom{background:#bd0000}.weibo-topic{background:#ff6f49}.weibo-topic-ad{background:#4dadff}.weibo-boil{background:#f86400}#weibo-container{overflow-y:auto;-ms-overflow-style:none;scrollbar-width:none}#weibo-container::-webkit-scrollbar{display:none}.weibo-list-item{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:nowrap}.weibo-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:auto}.weibo-num{float:right}.weibo-hotness{display:inline-block;padding:0 6px;transform:scale(.8) translateX(-3px);color:#fff;border-radius:8px}</style>'
     html += '<div class="weibo-list">'
     let hotness = {
@@ -1113,75 +1113,101 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
-  now1.setTime(now1.getTime() + 250);
-  var days = (now1 - grt) / 1000 / 60 / 60 / 24;
-  var dnum = Math.floor(days);
+    var grt = new Date("12/22/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间
+    now1.setTime(now1.getTime() + 250);
+    var days = (now1 - grt) / 1000 / 60 / 60 / 24;
+    var dnum = Math.floor(days);
 
-  var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
-    `
+    var ascll = [
+        `欢迎来到嘉明の小家!`,
+        `Future is now 🍭🍭🍭`,
+        `
         
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
+        ███╗   ███╗ █████╗          ██╗██╗ █████╗     ███╗   ███╗██╗███╗   ██╗ ██████╗ 
+        ████╗ ████║██╔══██╗         ██║██║██╔══██╗    ████╗ ████║██║████╗  ██║██╔════╝ 
+        ██╔████╔██║███████║         ██║██║███████║    ██╔████╔██║██║██╔██╗ ██║██║  ███╗
+        ██║╚██╔╝██║██╔══██║    ██   ██║██║██╔══██║    ██║╚██╔╝██║██║██║╚██╗██║██║   ██║
+        ██║ ╚═╝ ██║██║  ██║    ╚█████╔╝██║██║  ██║    ██║ ╚═╝ ██║██║██║ ╚████║╚██████╔╝
+        ╚═╝     ╚═╝╚═╝  ╚═╝     ╚════╝ ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+
+        
+        ██████████████████████═██████████████████████═██████████████████████═
+        ██████████████████████═██████████████████████═██████████████████████═
+        ██████████═════███████═███████████══█████████═███████████═████═══███═
+        █████══════════███████═███████████══███══████═███══███══█════════███═
+        ██████══█████══███████═█████══════════════███═███═══════█═══███═████═
+        ███████══████══███████═█████═══════════██████═████═══█══█══████═████═
+        ███████══████═████████═███████══════════█████═████═███══█══████═████═
+        ███████══███══████████═███████═══█═════██████═████═█════█═══════████═
+        ███████══███══████████═███████═════════██████═████═════██═══███═████═
+        ███████═████══█═══████═████████═█═════███████═████═███═██═█████═████═
+        ██████════════════████═███████═════════██████═████═██══█══█═════████═
+        ██████═══════███══████═████████═══█═══════███═████═██══█════════████═
+        ███████═████████══████═███═════════════════██═████═════█══████══████═
+        ██████████═══════█████═███════════███████████═███═══█══█══████══████═
+        ██═══════════════█████═███████═══════════████═████═███═══█████══████═
+        ███════████████══█████═████══════════════████═█████████══█████══████═
+        ███████████══██══█████═█████═══█══█═███═█████═████████══██████══████═
+        ███████████═════██████═█████═══█══█═██══█████═███████═══███═════████═
+        ████████████════██████═████══════════════████═███████══██████═══████═
+        █████████████═══██████═███══███══██═█████████═██████══████████══████═
+        ██████████████████████═█████████═████████████═██████████████████████═
+        ██████████████████████═██████████████████████═██████████████████████═
+        ═════════════════════════════════════════════════════════════════════                                                                                       
                                               
 `,
-    "小站已经苟活",
-    dnum,
-    "天啦!",
-    "©2022 By Fomalhaut",
-  ];
+        "小站已经苟活",
+        dnum,
+        "天啦!",
+        "©2024 By 马嘉明",
+    ];
 
-  setTimeout(
-    console.log.bind(
-      console,
-      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
-      "color:#39c5bb",
-      "",
-      "color:#39c5bb",
-      "color:#39c5bb",
-      "",
-      "color:#39c5bb",
-      ""
-    )
-  );
+    setTimeout(
+        console.log.bind(
+            console,
+            `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+            "color:#39c5bb",
+            "",
+            "color:#39c5bb",
+            "color:#39c5bb",
+            "",
+            "color:#39c5bb",
+            ""
+        )
+    );
 }
 
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
+    var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
 
-  setTimeout(
-    console.log.bind(
-      console,
-      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,
-      "color:white; background-color:#10bcc0",
-      "",
-      "",
-      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
-    )
-  );
+    setTimeout(
+        console.log.bind(
+            console,
+            `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,
+            "color:white; background-color:#10bcc0",
+            "",
+            "",
+            'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
+        )
+    );
 
-  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，大聪明", "color:white; background-color:#23c682", ""));
+    setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，大聪明", "color:white; background-color:#23c682", ""));
 
-  setTimeout(
-    console.warn.bind(
-      console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
-      "color:white; background-color:#f0ad4e",
-      ""
-    )
-  );
+    setTimeout(
+        console.warn.bind(
+            console,
+            "%c ⚡ Powered by 嘉明🥝 %c 你正在访问嘉明🥝の小家",
+            "color:white; background-color:#f0ad4e",
+            ""
+        )
+    );
 
-  setTimeout(console.log.bind(console, "%c W23-12 %c 系统监测到你已打开控制台", "color:white; background-color:#4f90d9", ""));
-  setTimeout(
-    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中", "color:white; background-color:#d9534f", "")
-  );
+    setTimeout(console.log.bind(console, "%c W23-12 %c 系统监测到你已打开控制台", "color:white; background-color:#4f90d9", ""));
+    setTimeout(
+        console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中……", "color:white; background-color:#d9534f", "")
+    );
 }
 createtime2();
 
@@ -1325,7 +1351,7 @@ document.addEventListener('visibilitychange', function () {
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '🐖抓到你啦～';
+    document.title = '🐇嘿嘿，抓到你啦～';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
@@ -2519,15 +2545,15 @@ if (m == 12 && dd == 25) {//圣诞节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 8 && dd == 11) {//站长生日
+if (m == 10 && dd == 31) {//站长生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝站长" + (y - 1998).toString() + "岁生日快乐！🥝");
+    Swal.fire("祝站长" + (y - 2003).toString() + "岁生日快乐！🥝");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 6 && dd == 30) {//小猫咪生日
+if (m == 12 && dd == 15) {//小猫咪生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝小猫咪" + (y - 1999).toString() + "岁生日快乐！🐱");
+    Swal.fire("祝宝宝" + (y - 2003).toString() + "岁生日快乐！🐱");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2781,38 +2807,31 @@ class Cursor {
 //----------------------------------------------------------------
 
 /* 页脚计时器 start */
-var now = new Date();
+var now = new Date;
 function createtime() {
-  // 当前时间
-  now.setTime(now.getTime() + 1000);
-  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间
-  var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
-  var unit = (dis / 149600000).toFixed(6);  // 天文单位
-  // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
-  var days = (now - grt) / 1e3 / 60 / 60 / 24,
-    dnum = Math.floor(days),
-    hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
-    hnum = Math.floor(hours);
-  1 == String(hnum).length && (hnum = "0" + hnum);
-  var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,
-    mnum = Math.floor(minutes);
-  1 == String(mnum).length && (mnum = "0" + mnum);
-  var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,
-    snum = Math.round(seconds);
-  1 == String(snum).length && (snum = "0" + snum);
-  let currentTimeHtml = "";
-  (currentTimeHtml =
-    hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
-    document.getElementById("workboard") &&
-    (document.getElementById("workboard").innerHTML = currentTimeHtml);
+  now.setTime(now.getTime() + 1e3);
+  var e = new Date("08/01/2022 00:00:00"),
+    t = Math.trunc(234e8 + (now - e) / 1e3 * 17),
+    a = (t / 1496e5).toFixed(6),
+    o = new Date("12/22/2023 00:00:00"),
+    n = (now - o) / 1e3 / 60 / 60 / 24,
+    r = Math.floor(n),
+    i = (now - o) / 1e3 / 60 / 60 - 24 * r,
+    s = Math.floor(i);
+  1 == String(s).length && (s = "0" + s);
+  var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s,
+    l = Math.floor(d);
+  1 == String(l).length && (l = "0" + l);
+  var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,
+    b = Math.round(g);
+  1 == String(b).length && (b = "0" + b);
+  let c = "";
+  c = s < 22 && s >= 7 ? `<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b><br><b><fontsize=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</font></b></div>` : `<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b><br><b><fontsize=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</font></b></div>`;
+  document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = c)
 }
-// 设置重复执行函数，周期1000ms
 setInterval(() => {
-  createtime();
-}, 1000);
+  createtime()
+}, 1e3);
 
 /*页脚计时器 end */
 
@@ -3384,9 +3403,8 @@ function createWinbox() {
 <a class="swf" id="swf_HYTMR" href="javascript:;" rel="noopener external nofollow" style="font-family:'HYTMR'!important;color:black" onclick="setFont('HYTMR')">汉仪唐美人</a>
 <a class="swf" id="swf_LXGW" href="javascript:;" rel="noopener external nofollow" style="font-family:'LXGW'!important;color:black" onclick="setFont('LXGW')">霞鹜文楷</a>
 <a class="swf" id="swf_TTQHB" href="javascript:;" rel="noopener external nofollow" style="font-family:'TTQHB'!important;color:black" onclick="setFont('TTQHB')">甜甜圈海报</a>
-<a class="swf" id="swf_YSHST" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST'!important;color:black" onclick="setFont('YSHST')">优设好身体</a>
-<a class="swf" id="swf_YSHST1" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST1'!important;color:black" onclick="setFont('YSHST1')">优设好身体1</a>
-<a class="swf" id="swf_YSHST2" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST2'!important;color:black" onclick="setFont('YSHST2')">优设好身体2</a>
+<a class="swf" id="swf_YSHST1" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST1'!important;color:black" onclick="setFont('YSHST1')">优设好身体</a>
+<a class="swf" id="swf_YSHST2" href="javascript:;" rel="noopener external nofollow" style="font-family:'YSHST2'!important;color:black" onclick="setFont('YSHST2')">优设好身体1</a>
 <a class="swf" id="swf_MiSans" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans'!important;color:black" onclick="setFont('MiSans')">MiSans</a>
 <a class="swf" id="swf_MiSans1" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans1'!important;color:black" onclick="setFont('MiSans1')">MiSans1</a>
 <a class="swf" id="swf_Ipix" href="javascript:;" rel="noopener external nofollow" style="font-family:'Ipix'!important;color:black" onclick="setFont('Ipix')">中文像素字体</a>
