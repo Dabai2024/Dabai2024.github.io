@@ -6578,22 +6578,16 @@ center#name-container {
 }
 /* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(2) .menus_item_child {
-  left: -95px;
+  left: -123px;
 }
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: -103px;
+  left: -258px;
 }
 .menus_items .menus_item:nth-child(4) .menus_item_child {
-  left: -102px;
+  left: -50px;
 }
 .menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -117px;
-}
-.menus_items .menus_item:nth-child(6) .menus_item_child {
-  left: -133px;
-}
-.menus_items .menus_item:nth-child(7) .menus_item_child {
-  left: -105px;
+  left: -85px;
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
@@ -8101,8 +8095,8 @@ a:hover {
 /* 帧率检测 */
 #fps {
   position: fixed;
-  left: 10px;
-  bottom: 10px;
+  right: 10px;
+  bottom: 0px;
   z-index: 1919810;
 }
 [data-theme="light"] #fps {
