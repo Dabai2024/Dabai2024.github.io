@@ -6465,6 +6465,49 @@ blockquote.pullquote.right {
   border-radius: 2em !important;
 }
 
+/* 字体引入 */
+@font-face {
+  font-family: YSHST;
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/优设好身体.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MiSans;
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/MiSans.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: HYTMR;
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/HYTangMeiRen55W.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: LXGW;
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: TTQHB;
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/甜甜圈海报字体.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Consolas_1;
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/Consolas.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ZhuZiAWan;
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/ZhuZiAWan2.woff2);
+  font-display: swap;
+}
+
 /* 特定部件字体调用 */
 div#menus {
   font-weight: bold !important;
@@ -6535,16 +6578,22 @@ center#name-container {
 }
 /* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(2) .menus_item_child {
-  left: -123px;
+  left: -95px;
 }
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: -258px;
+  left: -103px;
 }
 .menus_items .menus_item:nth-child(4) .menus_item_child {
-  left: -50px;
+  left: -102px;
 }
 .menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -85px;
+  left: -117px;
+}
+.menus_items .menus_item:nth-child(6) .menus_item_child {
+  left: -133px;
+}
+.menus_items .menus_item:nth-child(7) .menus_item_child {
+  left: -105px;
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
@@ -7538,13 +7587,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2024/03/31/880.jpg/2023/02/28/springBg.png);
+  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2024/04/04/IMG_202404048861_790x1024.jpg);
+  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -7610,7 +7659,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/12/24/R-C.png)
+  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
     no-repeat center center;
   background-size: cover;
 }
@@ -8052,8 +8101,8 @@ a:hover {
 /* 帧率检测 */
 #fps {
   position: fixed;
-  right: 10px;
-  bottom: 0px;
+  left: 10px;
+  bottom: 10px;
   z-index: 1919810;
 }
 [data-theme="light"] #fps {
@@ -9105,10 +9154,10 @@ figure.highlight pre .deletion {
 }
 
 /* 信息卡片彩带 */
-.author_top:hover {
+/* .author_top:hover {
   background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
   background-size: cover;
-}
+} */
 
 /* 霓虹灯css实现 light_15px 10s linear infinite */
 [data-theme="light"] #site-name,
