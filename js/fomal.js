@@ -3205,9 +3205,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url("https://picture.jiaming-blog.top/wallpaper/1.jpg");
+    --default-bg: url("https://ts1.cn.mm.bing.net/th/id/R-C.56ab5704680b6574c1b3c0a52643d8b5?rik=P8OAzrJEZS%2biuw&riu=http%3a%2f%2fjourneyz.co%2fwp-content%2fuploads%2f2019%2f09%2fGolden-Gate-Bridge.jpg&ehk=WX9eb2rUUjWBLLrsG2MQZLOMk2wtreV%2bT1Qq1tARk4s%3d&risl=&pid=ImgRaw&r=0");
     --darkmode-bg: url("https://tuchuang.voooe.cn/images/2023/12/24/0.jpg");
-    --mobileday-bg: url("https://picture.jiaming-blog.top/wallpaper/97.webp");
+    --mobileday-bg: url("https://ts1.cn.mm.bing.net/th/id/R-C.56ab5704680b6574c1b3c0a52643d8b5?rik=P8OAzrJEZS%2biuw&riu=http%3a%2f%2fjourneyz.co%2fwp-content%2fuploads%2f2019%2f09%2fGolden-Gate-Bridge.jpg&ehk=WX9eb2rUUjWBLLrsG2MQZLOMk2wtreV%2bT1Qq1tARk4s%3d&risl=&pid=ImgRaw&r=0");
     --mobilenight-bg: url("https://tuchuang.voooe.cn/images/2023/12/24/0-1.jpg");
   }`;
 }
