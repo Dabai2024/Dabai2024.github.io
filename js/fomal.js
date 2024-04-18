@@ -2557,7 +2557,7 @@ if (m == 12 && dd == 15) {//小猫咪生日
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 4 && dd == 23) {//小猫咪生日
+if (m == 4 && dd == 23) {//
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire("祝小侄女娜菲尔" + (y - 2023).toString() + "岁生日快乐！🐱");
     sessionStorage.setItem("isPopupWindow", "1");
@@ -2566,6 +2566,12 @@ if (m == 4 && dd == 23) {//小猫咪生日
 if (m == 4 && dd == 16) {//小猫咪生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire("祝你" + (y - 2003).toString() + "岁生日快乐！🐱");
+    sessionStorage.setItem("isPopupWindow", "1");
+  }
+}
+if (m == 4 && dd == 18) {//东源生日
+  if (sessionStorage.getItem("isPopupWindow") != "1") {
+    Swal.fire("祝李东源" + (y - 2003).toString() + "岁生日快乐呀，要天天开心哦！🐱");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
