@@ -2565,7 +2565,7 @@ if (m == 4 && dd == 23) {//
 }
 if (m == 4 && dd == 16) {//小猫咪生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝你" + (y - 2003).toString() + "岁生日快乐！🐱");
+    Swal.fire("祝白莹莹" + (y - 2003).toString() + "岁生日快乐！🐱");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
