@@ -2563,12 +2563,15 @@ if (m == 4 && dd == 23) {//
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
+B = ["生日快乐，永远幸福！", "吃饭香香，身体棒棒！", "不失眠，不焦虑！", "像风一样自由的生活！", "金钱不缺，微笑不断！", "一切顺心，安逸！", "像孩子一样快乐，像星星一样努力发光，像风一样自由", "天天娃哈哈，岁岁乐百事，笑脸美如花，青春惹人夸。生日快乐！"]
 if (m == 4 && dd == 16) {//小猫咪生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝白莹莹" + (y - 2003).toString() + "岁生日快乐！🐱");
+    Swal.fire("祝白莹莹" + B[Math.floor(Math.random() * l.length)] + "🐱");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
+
+
 
 //传统节日部分
 
